@@ -1,0 +1,299 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #bad4af;
+  background-image: url("SustainStitch.jpg");
+  margin: 0;
+  padding: 0;
+  font-family: 'Lisu Bosa';
+
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  align-items: center;
+  color: white;
+  /* Updated text color to white */
+}
+
+.button {
+  border: 3px black solid;
+  background: linear-gradient(45deg, #CCB88D, #e8eee2);
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  color: #000000;
+  width: 100%;
+  margin: 20px;
+  text-align: center;
+  font-family: 'Lisu Bosa';
+}
+
+.button:hover {
+  background: linear-gradient(45deg, #e8eee2, #afb394);
+}
+
+h1 {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 30px;
+  margin: 30px;
+  font-family: 'Lisu Bosa';
+}
+
+img {
+  display: block;
+  height: 200px;
+  width: 300px;
+}
+
+img1 {
+  width: 400px;
+  height: 200px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 100px;
+  justify-content: center;
+}
+
+ul li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+footer {
+  text-align: center;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 5px;
+  margin: 20px auto;
+}
+
+.card {
+  width: 800px;
+  height: 200px;
+  perspective: 1000px;
+  margin-top: 70px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.3s;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+  cursor: pointer;
+}
+
+.card-front,
+.card-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+}
+
+.card-front {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  background-color: #868474;
+  color: white;
+  font-size: 50px
+}
+
+.card-back {
+  background-color: #a9a49d;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: white;
+  font-family: Papyrus, Copperplate, fantasy;
+}
+
+.foodInsecurity {
+  display: flex;
+  flex-direction: row;
+  margin: 20px auto;
+  width: 1000px;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.whatIsIt {
+  border: 2px solid;
+  border-color: black;
+  background-color: #547859;
+  padding: 70px;
+  color: white;
+  line-height: 1;
+
+}
+
+.whatIsIt1 {
+  border: 2px solid;
+  border-color: black;
+  background-color: #547859;
+  padding: 30px;
+  color: white;
+  line-height: 1;
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+}
+
+.whatIsIt2 {
+  border: 2px solid;
+  border-color: black;
+  background-color: #547859;
+  padding: 30px;
+  color: white;
+  line-height: 1;
+  font-size: 20px;
+}
+
+.whatIsIt3 {
+  border: 2px solid;
+  border-color: black;
+  background-color: #547859;
+  padding: 30px;
+  color: white;
+  line-height: 1;
+  font-size: 20px;
+
+}
+
+.whatIsIt4 {
+  border: 2px solid;
+  border-color: black;
+  background-color: #547859;
+  padding: 30px;
+  color: white;
+  line-height: 1;
+  font-size: 20px;
+}
+
+.homeButtons {
+  display: inline-block;
+  margin-left: -85px;
+}
+
+.homeBtn {
+  display: +flex;
+  flex-direction: row;
+  margin-left: -40px;
+  white-space: nowrap;
+}
+
+.button2 {
+  border: 3px black solid;
+  background: linear-gradient(45deg, #9fcc8f, #e8eee2);
+  border-radius: 5px;
+  color: #000000;
+  width: 100%;
+  margin: 8px;
+  margin-left: -15px;
+  text-align: center;
+  font-family: 'Lisu Bosa';
+}
+
+.button2:hover {
+  background: linear-gradient(45deg, #dfc690, #d1dbc7);
+}
+
+.cityButtons {
+  background-color: white;
+  list-style: none;
+  padding: 10px;
+  margin: 10px;
+  font-family: 'Lisu Bosa';
+}
+
+
+.whatisitstack {
+  display: flex;
+  flex-direction: column;
+  margin-left: -90px;
+  margin-right: 50px;
+}
+
+.button3 {
+  border: 3px black solid;
+  background: linear-gradient(45deg, #9fcc8f, #e8eee2);
+  border-radius: 5px;
+  color: #000000;
+  width: 100%;
+  margin: 20px;
+  text-align: center;
+  display: inline-block;
+  font-family: 'Lisu Bosa';
+}
+
+.button3:hover {
+  background: linear-gradient(45deg, #ccc48f, #f9f8ec);
+}
+
+h2 {
+  color: #ffffff;
+  font-family: 'Noto Serif';
+  font-size: 25px;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Title {
+  font-family: 'Lisu Bosa';
+  font-size: 65px;
+}
+
+.dropdown {
+  margin-top: 20.5px;
+  margin-left: 10px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #99b88e;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-left: 45px;
+}
+
+
+.dropdown-content a {
+  text-align: center;
+  display: block;
+  padding: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
