@@ -1,0 +1,180 @@
+<!-- Watched a tutorial from Bee Coder and Giraffe Academy on Youtube to learn how to implement Javascript into our html file. Links are here: https://www.youtube.com/watch?v=rCVqQ8NKU2M&t=299s&ab_channel=BeeCoder, https://www.youtube.com/watch?v=LQGTb112N_c&ab_channel=GiraffeAcademy, modified by John Liu -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    Sustainable Materials
+  </title>
+  <link href="mainstyle.css" type="text/css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Lisu Bosa' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Noto Serif' rel='stylesheet'>
+</head>
+
+<body>
+  <h1>
+    <div class="Title">
+      Sustainability Quiz
+    </div>
+    <main>
+      <ul class="homeButtons">
+        <li><a href="index.html">
+          <div class="button">
+            HOME
+          </div>
+        </a>
+        </li>
+        <li>
+          <a href="barcode.html">
+            <div class="button">
+              Check your Barcodes!
+            </div>
+          </a>
+        </li>
+      </ul>
+      <form id="quizForm">
+        <ul>
+          <li>
+            <div class="question">
+              <a>
+              Q1: Does your clothing have polyester, nylon, or cotton?
+              </a>
+              <br>
+              <label>
+                <input type="radio" name="q1" value="true"> 
+                <a>
+                True
+                </a>
+              </label>
+              <label>
+                <input type="radio" name="q1" value="false"> 
+                <a>
+                False
+                </a>
+              </label>
+            </div>
+          </li>
+          <li>
+            <div class="question">
+              <a>
+              Q2: Does your clothing have a plastic or recycled material?
+              </a>
+              <br> 
+              <label>
+                <input type="radio" name="q2" value="true"> 
+                <a>
+                  True
+                </a>
+              </label>
+              <label>
+                <input type="radio" name="q2" value="false"> 
+                <a>
+                False
+                </a>
+              </label>
+            </div>
+          </li>
+          <li>
+            <div class="question">
+              <a>
+              Q3: Does your clothing have a synthetic or natural material?
+              </a>
+              <br>
+              <label>
+                <input type="radio" name="q3" value="true"> 
+                <a>
+                True
+                </a>
+              </label>
+              <label>
+                <input type="radio" name="q3" value="false"> 
+                <a>
+                False
+                </a>
+              </label>
+            </div>
+          </li>
+          <li>
+            <div class="question">
+              <a>
+              Q4: Does your clothing have any plastic components, such as buttons or zippers?
+              </a>
+              <br>
+              <label>
+                <input type="radio" name="q4" value="true"> 
+                <a>
+                True
+                </a>
+              </label>
+              <label>
+                <input type="radio" name="q4" value="false"> 
+                <a>
+                False
+                </a>
+              </label>
+            </div>
+          </li>
+          <li>
+            <div class="question">
+              <a>
+              Q5: Does your clothing brand not utilize eco-friendly dyes and chemicals?
+              </a>
+              <br>
+              <label>
+                <input type="radio" name="q5" value="true"> 
+                <a>
+                True
+                </a>
+              </label>
+              <label>
+                <input type="radio" name="q5" value="false"> 
+                <a>
+                False
+                </a>
+              </label>
+            </div>
+          </li>
+          <li>
+            <input type="button" value="Submit" style="float: left;" onclick="calculateScore()">
+          </li>
+        </ul>
+      </form>
+    </main>
+  </h1>
+  <footer>
+    <p>&copy; 2023 Our Company. All rights reserved. Contact us: SustainStitch@gmail.com or 267-123-4567 </p>
+  </footer>
+  <style>
+    .question {
+      font-size: 16px; /* Adjust the font size */
+    }
+    .submit {
+      text-align: left;
+    }
+  </style>
+  <script>
+    function calculateScore() {
+      var form = document.getElementById("quizForm");
+      var inputs = form.getElementsByTagName("input");
+      var score = 0;
+
+      for (var i = 0; i < inputs.length; i++) {
+        if (inputs[i].type === "radio" && inputs[i].checked) {
+          if (inputs[i].value === "false") {
+            score++;
+          }
+        }
+      }
+
+      var message;
+      if (score === 0) {
+        message = "Your score is 0/5. You might want to consider alternative clothing habits!";
+      } else {
+        message = "Your score is " + score + "/5. Great job! You are very sustainable!";
+      }
+
+      alert(message);
+    }
+  </script>
+</body>
+</html>
