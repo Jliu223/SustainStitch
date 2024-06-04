@@ -132,15 +132,6 @@ footer {
   font-family: Papyrus, Copperplate, fantasy;
 }
 
-.foodInsecurity {
-  display: flex;
-  flex-direction: row;
-  margin: 20px auto;
-  width: 1000px;
-  justify-content: center;
-  align-content: space-between;
-}
-
 .whatIsIt {
   border: 2px solid;
   border-color: black;
