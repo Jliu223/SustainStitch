@@ -4,8 +4,8 @@ html {
 }
 
 body {
-  background-color: #bad4af;
-  background-image: url("SustainStitch.jpg");
+  background-color: #ffffff;
+  background-image: url("Image.jpeg");
   margin: 0;
   padding: 0;
   font-family: 'Lisu Bosa';
@@ -144,54 +144,64 @@ footer {
 .whatIsIt {
   border: 2px solid;
   border-color: black;
-  background-color: #547859;
+  background-color: #3f4a41;
   padding: 70px;
-  color: white;
+  color: black;
   line-height: 1;
-
 }
 
 .whatIsIt1 {
   border: 2px solid;
   border-color: black;
-  background-color: #547859;
-  padding: 30px;
+  background-color: #3f4a41;
+  padding: 50px;
   color: white;
   line-height: 1;
   margin: auto;
   text-align: center;
   font-size: 20px;
+  margin: 0 auto; /* Center horizontally */
+  max-width: 80%;
+  margin-left: 100px;
 }
 
 .whatIsIt2 {
   border: 2px solid;
   border-color: black;
-  background-color: #547859;
+  background-color: #3f4a41;
   padding: 30px;
   color: white;
   line-height: 1;
   font-size: 20px;
+  margin: 0 auto; /* Center horizontally */
+  max-width: 80%;
+  margin-left: 100px;
 }
 
 .whatIsIt3 {
   border: 2px solid;
   border-color: black;
-  background-color: #547859;
+  background-color: #3f4a41;
   padding: 30px;
   color: white;
   line-height: 1;
   font-size: 20px;
-
+  margin: 0 auto; /* Center horizontally */
+  max-width: 80%;
+  margin-left: 100px;
 }
 
 .whatIsIt4 {
   border: 2px solid;
   border-color: black;
-  background-color: #547859;
+  background-color: #3f4a41;
   padding: 30px;
   color: white;
   line-height: 1;
   font-size: 20px;
+  margin: 0 auto; /* Center horizontally */
+  max-width: 80%;
+  margin-left: 100px;
 }
 
 .homeButtons {
@@ -240,7 +250,7 @@ footer {
 
 .button3 {
   border: 3px black solid;
-  background: linear-gradient(45deg, #9fcc8f, #e8eee2);
+  background: linear-gradient(45deg, #b0b8ad, #e8eee2);
   border-radius: 5px;
   color: #000000;
   width: 100%;
@@ -258,7 +268,7 @@ h2 {
   color: #ffffff;
   font-family: 'Noto Serif';
   font-size: 25px;
-
+  margin-left: 100px
 }
 
 .center {
@@ -280,7 +290,7 @@ h2 {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #99b88e;
+  background-color: #b0b8ad;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
