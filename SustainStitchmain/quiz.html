@@ -168,9 +168,11 @@
 
       var message;
       if (score === 0) {
-        message = "Your score is 0/5. You might want to consider alternative clothing habits!";
+          message = "Your score is 0/5. You might want to consider alternative clothing habits!";
+      } else if (score > 2) {
+          message = "Your score is " + score + "/5. Great job! You are very sustainable!";
       } else {
-        message = "Your score is " + score + "/5. Great job! You are very sustainable!";
+          message = "Your score is " + score + "/5. Keep working on improving your sustainability habits!";
       }
 
       alert(message);
