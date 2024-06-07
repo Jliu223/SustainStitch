@@ -53,10 +53,10 @@ When you're ready to make this README your own, just edit this file and use the 
 Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
 
 ## Name
-Choose a self-explaining name for your project.
+SustainaStitch
 
 ## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+Our website informs the user about fast fashion and its negative effects on the environment and we encourage our users to make more sustainable choices with their clothing. The website shows our mission and what we are trying to address, local donation centers in various cities on a map, a quiz that tells users if they need to work on their sustainability habits, and a place to put your clothing's barcode to see what materials are inside. 
 
 ## Badges
 On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
@@ -71,10 +71,10 @@ Within a particular ecosystem, there may be a common way of installing things, s
 Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
 
 ## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+Email us, np898@drexel.edu, jl4582@drexel.edu, pg556@drexel.edu
 
 ## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+If this project is picked up after CI103, we are looking to work on the barcode feature and expand to more brands other than ZARA. 
 
 ## Contributing
 State if you are open to contributions and what your requirements are for accepting them.
@@ -90,4 +90,4 @@ Show your appreciation to those who have contributed to the project.
 For open source projects, say how it is licensed.
 
 ## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+As of May 30th, 2024, development has stopped. 
