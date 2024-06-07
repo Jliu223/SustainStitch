@@ -53,7 +53,7 @@ When you're ready to make this README your own, just edit this file and use the 
 Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
 
 ## Name
-SustainaStitch
+SustainStitch
 
 ## Description
 Our website informs the user about fast fashion and its negative effects on the environment and we encourage our users to make more sustainable choices with their clothing. The website shows our mission and what we are trying to address, local donation centers in various cities on a map, a quiz that tells users if they need to work on their sustainability habits, and a place to put your clothing's barcode to see what materials are inside. 
